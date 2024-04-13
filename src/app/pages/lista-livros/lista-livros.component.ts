@@ -33,7 +33,7 @@ export class ListaLivrosComponent implements AfterViewInit{
   constructor(private service: LivroService) { }
 
   ngAfterViewInit(){
-    this.campoBuscaElement.nativeElement.focus();
+    this.campoBuscaElement.nativeElement.focus();   
   }
 
 
